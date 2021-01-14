@@ -16,7 +16,7 @@ jobs:
     name: Build and Deploy Job
     env:
   CI: false
-    steps:
+  steps:
       - uses: actions/checkout@v2
         with:
           submodules: true
